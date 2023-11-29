@@ -1,1 +1,18 @@
+div {
+  border: 1px solid black;
+}
 
+div + div {
+  border-top:0;
+}
+
+a {
+  padding:1cm;
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: red;
+  transform: scale(1.2);
+}
