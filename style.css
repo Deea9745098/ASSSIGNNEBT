@@ -15,14 +15,14 @@ img {
  
   display: flex;
   height: 200px;
-  background-color: transparent;
+  background-color: red;
   justify-content: center;
 
 }
 
 .nav {
  
-  background-color: transparent;
+  background-color: blue;
   height: 30px;
   text-align: center;
 
@@ -42,7 +42,7 @@ img {
 }
 .websitecontent {
 
-  background-color: transparent;
+  background-color: white;
   height:400px;
   width: 1920px;
   display: flex;
@@ -67,7 +67,7 @@ img {
 }
 
 div {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 div + div {
