@@ -34,7 +34,7 @@ img {
 }
 
 @keyframes my-animation {
-  from {background-color: red;}
+  from {background-color: blue;}
   to {background-color: green;}
  
  
@@ -64,6 +64,9 @@ img {
   transition-timing-function: ease-in-out;
   transition-duration: 0.20s;
   margin-left: 50px;
+}
+.content:hover {
+  transform:scale(1.2);
 }
 
 div {
