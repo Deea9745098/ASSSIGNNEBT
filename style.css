@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
@@ -13,10 +13,19 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #3498db;
     color: white;
     text-align: center;
-    padding: 40px 0;
+    padding: 80px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.subtitle {
+    font-size: 1.2em;
 }
 
 nav ul {
@@ -24,7 +33,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #444;
+    background-color: #3498db;
 }
 
 nav li {
@@ -41,45 +50,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #2980b9;
 }
 
 section {
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 h2 {
-    color: #333;
-}
-
-h3 {
-    color: #555;
-}
-
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skill {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-.project {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
+    color: #333
