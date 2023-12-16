@@ -2,21 +2,29 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Set your preferred background color */
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 header {
-    background-color: #333; /* Set your preferred header background color */
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 40px 0;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
-    background-color: #444; /* Set your preferred navigation background color */
     overflow: hidden;
+    background-color: #444;
 }
 
 nav li {
@@ -29,95 +37,49 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #555; /* Set your preferred navigation hover background color */
+    background-color: #555;
 }
 
 section {
-    margin: 20px;
+    padding: 40px 0;
 }
 
 h2 {
-    color: #333; /* Set your preferred heading color */
+    color: #333;
 }
 
 h3 {
-    color: #555; /* Set your preferred subheading color */
+    color: #555;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 .project {
+    background-color: #fff;
+    padding: 20px;
     margin-bottom: 20px;
-    padding: 10px;
-    background-color: #fff; /* Set your preferred project entry background color */
-    border: 1px solid #ddd; /* Set your preferred border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333; /* Set your preferred footer background color */
+    background-color: #333;
     color: white;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-@keyframes my-animation {
-  from {background-color: blue;}
-  to {background-color: green;}
- 
- 
-
-}
-.websitecontent {
-
-  background-color: white;
-  height:400px;
-  width: 1920px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
- 
- 
-}
-
-.content {
- 
-  display:flex;
-
-  height:50px;
-  width:50px;
-  border-radius: 50%;
-  display: inline-block;
-  animation: my-animation 2s backwards infinite alternate;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.20s;
-  margin-left: 50px;
-}
-.content:hover {
-  transform:scale(1.2);
-}
-
-div {
-  border: 2px solid black;
-}
-
-div + div {
-  border-top:0;
-}
-
-a {
-  padding:1cm;
-  transition-timing-function: ease-in-out;
-  transition: 0.3s;
-}
-
-a:hover {
-  color: red;
-  transform: scale(1.2);
+    text-align: center;
+    padding: 10px 0;
 }
